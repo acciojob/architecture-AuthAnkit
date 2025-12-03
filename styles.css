@@ -1,1 +1,38 @@
-/*  your css code here. If applicable */
+/* Main container width */
+.mainContainer {
+    width: 1100px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Banner container */
+.imageContainer {
+    margin-bottom: 20px;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Table styling */
+.archTable {
+    width: 1100px;
+    border-collapse: collapse;
+}
+
+.archTable td {
+    padding: 15px;
+    vertical-align: middle;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Images inside table */
+.smallImg {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
